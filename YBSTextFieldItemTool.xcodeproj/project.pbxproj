@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9797BFAF21A3B7390035DCBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFAE21A3B7390035DCBF /* AppDelegate.m */; };
+		9797BFB221A3B7390035DCBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFB121A3B7390035DCBF /* ViewController.m */; };
+		9797BFB521A3B7390035DCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9797BFB321A3B7390035DCBF /* Main.storyboard */; };
+		9797BFB721A3B73B0035DCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9797BFB621A3B73B0035DCBF /* Assets.xcassets */; };
+		9797BFBA21A3B73B0035DCBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9797BFB821A3B73B0035DCBF /* LaunchScreen.storyboard */; };
+		9797BFBD21A3B73B0035DCBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFBC21A3B73B0035DCBF /* main.m */; };
+		9797BFC721A3B73B0035DCBF /* YBSTextFieldItemToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFC621A3B73B0035DCBF /* YBSTextFieldItemToolTests.m */; };
+		9797BFD221A3B73B0035DCBF /* YBSTextFieldItemToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFD121A3B73B0035DCBF /* YBSTextFieldItemToolUITests.m */; };
+		9797BFE621A3B7590035DCBF /* YBSTextFieldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFE121A3B7590035DCBF /* YBSTextFieldItem.m */; };
+		9797BFE721A3B7590035DCBF /* YBSTextFieldItemToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFE221A3B7590035DCBF /* YBSTextFieldItemToolView.m */; };
+		9797BFE821A3B7590035DCBF /* YBSTextFieldItemTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFE321A3B7590035DCBF /* YBSTextFieldItemTextField.m */; };
+		9797BFEB21A3CE880035DCBF /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BFE921A3CE870035DCBF /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9797BFC321A3B73B0035DCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9797BFA221A3B7390035DCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9797BFA921A3B7390035DCBF;
+			remoteInfo = YBSTextFieldItemTool;
+		};
+		9797BFCE21A3B73B0035DCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9797BFA221A3B7390035DCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9797BFA921A3B7390035DCBF;
+			remoteInfo = YBSTextFieldItemTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9797BFAA21A3B7390035DCBF /* YBSTextFieldItemTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBSTextFieldItemTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9797BFAD21A3B7390035DCBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9797BFAE21A3B7390035DCBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9797BFB021A3B7390035DCBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9797BFB121A3B7390035DCBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9797BFB421A3B7390035DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9797BFB621A3B73B0035DCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9797BFB921A3B73B0035DCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9797BFBB21A3B73B0035DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9797BFBC21A3B73B0035DCBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9797BFC221A3B73B0035DCBF /* YBSTextFieldItemToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBSTextFieldItemToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9797BFC621A3B73B0035DCBF /* YBSTextFieldItemToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBSTextFieldItemToolTests.m; sourceTree = "<group>"; };
+		9797BFC821A3B73B0035DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9797BFCD21A3B73B0035DCBF /* YBSTextFieldItemToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBSTextFieldItemToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9797BFD121A3B73B0035DCBF /* YBSTextFieldItemToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBSTextFieldItemToolUITests.m; sourceTree = "<group>"; };
+		9797BFD321A3B73B0035DCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9797BFE021A3B7590035DCBF /* YBSTextFieldItemTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSTextFieldItemTextField.h; sourceTree = "<group>"; };
+		9797BFE121A3B7590035DCBF /* YBSTextFieldItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSTextFieldItem.m; sourceTree = "<group>"; };
+		9797BFE221A3B7590035DCBF /* YBSTextFieldItemToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSTextFieldItemToolView.m; sourceTree = "<group>"; };
+		9797BFE321A3B7590035DCBF /* YBSTextFieldItemTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSTextFieldItemTextField.m; sourceTree = "<group>"; };
+		9797BFE421A3B7590035DCBF /* YBSTextFieldItemToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSTextFieldItemToolView.h; sourceTree = "<group>"; };
+		9797BFE521A3B7590035DCBF /* YBSTextFieldItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSTextFieldItem.h; sourceTree = "<group>"; };
+		9797BFE921A3CE870035DCBF /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9797BFEA21A3CE870035DCBF /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9797BFA721A3B7390035DCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9797BFBF21A3B73B0035DCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9797BFCA21A3B73B0035DCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9797BFA121A3B7390035DCBF = {
+			isa = PBXGroup;
+			children = (
+				9797BFAC21A3B7390035DCBF /* YBSTextFieldItemTool */,
+				9797BFC521A3B73B0035DCBF /* YBSTextFieldItemToolTests */,
+				9797BFD021A3B73B0035DCBF /* YBSTextFieldItemToolUITests */,
+				9797BFAB21A3B7390035DCBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9797BFAB21A3B7390035DCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9797BFAA21A3B7390035DCBF /* YBSTextFieldItemTool.app */,
+				9797BFC221A3B73B0035DCBF /* YBSTextFieldItemToolTests.xctest */,
+				9797BFCD21A3B73B0035DCBF /* YBSTextFieldItemToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9797BFAC21A3B7390035DCBF /* YBSTextFieldItemTool */ = {
+			isa = PBXGroup;
+			children = (
+				9797BFEA21A3CE870035DCBF /* UIView+Extension.h */,
+				9797BFE921A3CE870035DCBF /* UIView+Extension.m */,
+				9797BFDF21A3B7590035DCBF /* YBSTextFieldItemTool */,
+				9797BFAD21A3B7390035DCBF /* AppDelegate.h */,
+				9797BFAE21A3B7390035DCBF /* AppDelegate.m */,
+				9797BFB021A3B7390035DCBF /* ViewController.h */,
+				9797BFB121A3B7390035DCBF /* ViewController.m */,
+				9797BFB321A3B7390035DCBF /* Main.storyboard */,
+				9797BFB621A3B73B0035DCBF /* Assets.xcassets */,
+				9797BFB821A3B73B0035DCBF /* LaunchScreen.storyboard */,
+				9797BFBB21A3B73B0035DCBF /* Info.plist */,
+				9797BFBC21A3B73B0035DCBF /* main.m */,
+			);
+			path = YBSTextFieldItemTool;
+			sourceTree = "<group>";
+		};
+		9797BFC521A3B73B0035DCBF /* YBSTextFieldItemToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				9797BFC621A3B73B0035DCBF /* YBSTextFieldItemToolTests.m */,
+				9797BFC821A3B73B0035DCBF /* Info.plist */,
+			);
+			path = YBSTextFieldItemToolTests;
+			sourceTree = "<group>";
+		};
+		9797BFD021A3B73B0035DCBF /* YBSTextFieldItemToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9797BFD121A3B73B0035DCBF /* YBSTextFieldItemToolUITests.m */,
+				9797BFD321A3B73B0035DCBF /* Info.plist */,
+			);
+			path = YBSTextFieldItemToolUITests;
+			sourceTree = "<group>";
+		};
+		9797BFDF21A3B7590035DCBF /* YBSTextFieldItemTool */ = {
+			isa = PBXGroup;
+			children = (
+				9797BFE421A3B7590035DCBF /* YBSTextFieldItemToolView.h */,
+				9797BFE221A3B7590035DCBF /* YBSTextFieldItemToolView.m */,
+				9797BFE521A3B7590035DCBF /* YBSTextFieldItem.h */,
+				9797BFE121A3B7590035DCBF /* YBSTextFieldItem.m */,
+				9797BFE021A3B7590035DCBF /* YBSTextFieldItemTextField.h */,
+				9797BFE321A3B7590035DCBF /* YBSTextFieldItemTextField.m */,
+			);
+			path = YBSTextFieldItemTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9797BFA921A3B7390035DCBF /* YBSTextFieldItemTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9797BFD621A3B73B0035DCBF /* Build configuration list for PBXNativeTarget "YBSTextFieldItemTool" */;
+			buildPhases = (
+				9797BFA621A3B7390035DCBF /* Sources */,
+				9797BFA721A3B7390035DCBF /* Frameworks */,
+				9797BFA821A3B7390035DCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBSTextFieldItemTool;
+			productName = YBSTextFieldItemTool;
+			productReference = 9797BFAA21A3B7390035DCBF /* YBSTextFieldItemTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9797BFC121A3B73B0035DCBF /* YBSTextFieldItemToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9797BFD921A3B73B0035DCBF /* Build configuration list for PBXNativeTarget "YBSTextFieldItemToolTests" */;
+			buildPhases = (
+				9797BFBE21A3B73B0035DCBF /* Sources */,
+				9797BFBF21A3B73B0035DCBF /* Frameworks */,
+				9797BFC021A3B73B0035DCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9797BFC421A3B73B0035DCBF /* PBXTargetDependency */,
+			);
+			name = YBSTextFieldItemToolTests;
+			productName = YBSTextFieldItemToolTests;
+			productReference = 9797BFC221A3B73B0035DCBF /* YBSTextFieldItemToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9797BFCC21A3B73B0035DCBF /* YBSTextFieldItemToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9797BFDC21A3B73B0035DCBF /* Build configuration list for PBXNativeTarget "YBSTextFieldItemToolUITests" */;
+			buildPhases = (
+				9797BFC921A3B73B0035DCBF /* Sources */,
+				9797BFCA21A3B73B0035DCBF /* Frameworks */,
+				9797BFCB21A3B73B0035DCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9797BFCF21A3B73B0035DCBF /* PBXTargetDependency */,
+			);
+			name = YBSTextFieldItemToolUITests;
+			productName = YBSTextFieldItemToolUITests;
+			productReference = 9797BFCD21A3B73B0035DCBF /* YBSTextFieldItemToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9797BFA221A3B7390035DCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "严兵胜";
+				TargetAttributes = {
+					9797BFA921A3B7390035DCBF = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					9797BFC121A3B73B0035DCBF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 9797BFA921A3B7390035DCBF;
+					};
+					9797BFCC21A3B73B0035DCBF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 9797BFA921A3B7390035DCBF;
+					};
+				};
+			};
+			buildConfigurationList = 9797BFA521A3B7390035DCBF /* Build configuration list for PBXProject "YBSTextFieldItemTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9797BFA121A3B7390035DCBF;
+			productRefGroup = 9797BFAB21A3B7390035DCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9797BFA921A3B7390035DCBF /* YBSTextFieldItemTool */,
+				9797BFC121A3B73B0035DCBF /* YBSTextFieldItemToolTests */,
+				9797BFCC21A3B73B0035DCBF /* YBSTextFieldItemToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9797BFA821A3B7390035DCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9797BFBA21A3B73B0035DCBF /* LaunchScreen.storyboard in Resources */,
+				9797BFB721A3B73B0035DCBF /* Assets.xcassets in Resources */,
+				9797BFB521A3B7390035DCBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9797BFC021A3B73B0035DCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9797BFCB21A3B73B0035DCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9797BFA621A3B7390035DCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9797BFB221A3B7390035DCBF /* ViewController.m in Sources */,
+				9797BFBD21A3B73B0035DCBF /* main.m in Sources */,
+				9797BFAF21A3B7390035DCBF /* AppDelegate.m in Sources */,
+				9797BFEB21A3CE880035DCBF /* UIView+Extension.m in Sources */,
+				9797BFE721A3B7590035DCBF /* YBSTextFieldItemToolView.m in Sources */,
+				9797BFE621A3B7590035DCBF /* YBSTextFieldItem.m in Sources */,
+				9797BFE821A3B7590035DCBF /* YBSTextFieldItemTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9797BFBE21A3B73B0035DCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9797BFC721A3B73B0035DCBF /* YBSTextFieldItemToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9797BFC921A3B73B0035DCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9797BFD221A3B73B0035DCBF /* YBSTextFieldItemToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9797BFC421A3B73B0035DCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9797BFA921A3B7390035DCBF /* YBSTextFieldItemTool */;
+			targetProxy = 9797BFC321A3B73B0035DCBF /* PBXContainerItemProxy */;
+		};
+		9797BFCF21A3B73B0035DCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9797BFA921A3B7390035DCBF /* YBSTextFieldItemTool */;
+			targetProxy = 9797BFCE21A3B73B0035DCBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9797BFB321A3B7390035DCBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9797BFB421A3B7390035DCBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9797BFB821A3B73B0035DCBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9797BFB921A3B73B0035DCBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9797BFD421A3B73B0035DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9797BFD521A3B73B0035DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9797BFD721A3B73B0035DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSTextFieldItemTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSTextFieldItemTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9797BFD821A3B73B0035DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSTextFieldItemTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSTextFieldItemTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9797BFDA21A3B73B0035DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSTextFieldItemToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSTextFieldItemToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBSTextFieldItemTool.app/YBSTextFieldItemTool";
+			};
+			name = Debug;
+		};
+		9797BFDB21A3B73B0035DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSTextFieldItemToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSTextFieldItemToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBSTextFieldItemTool.app/YBSTextFieldItemTool";
+			};
+			name = Release;
+		};
+		9797BFDD21A3B73B0035DCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSTextFieldItemToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSTextFieldItemToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBSTextFieldItemTool;
+			};
+			name = Debug;
+		};
+		9797BFDE21A3B73B0035DCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJWDFTVLYS;
+				INFOPLIST_FILE = YBSTextFieldItemToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YBS.YBSTextFieldItemToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBSTextFieldItemTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9797BFA521A3B7390035DCBF /* Build configuration list for PBXProject "YBSTextFieldItemTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9797BFD421A3B73B0035DCBF /* Debug */,
+				9797BFD521A3B73B0035DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9797BFD621A3B73B0035DCBF /* Build configuration list for PBXNativeTarget "YBSTextFieldItemTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9797BFD721A3B73B0035DCBF /* Debug */,
+				9797BFD821A3B73B0035DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9797BFD921A3B73B0035DCBF /* Build configuration list for PBXNativeTarget "YBSTextFieldItemToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9797BFDA21A3B73B0035DCBF /* Debug */,
+				9797BFDB21A3B73B0035DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9797BFDC21A3B73B0035DCBF /* Build configuration list for PBXNativeTarget "YBSTextFieldItemToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9797BFDD21A3B73B0035DCBF /* Debug */,
+				9797BFDE21A3B73B0035DCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9797BFA221A3B7390035DCBF /* Project object */;
+}
